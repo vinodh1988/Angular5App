@@ -1,0 +1,26 @@
+.style1{
+    background-color: lightseagreen;
+    color: white;
+    padding: 5px;
+    margin: 10px;
+    width: 400px;
+    height: 40px;
+    font-family: arial;
+
+}
+
+.style2{
+    background-color: rgb(52, 253, 176);
+    color: white;
+    padding: 5px;
+    margin: 10px;
+    width: 400px;
+    height: 40px;
+    font-family: Agency FB;
+}
+
+span{
+    text-decoration: underline;
+    color: lightsalmon;
+    cursor: pointer;
+}
