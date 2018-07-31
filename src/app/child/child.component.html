@@ -1,5 +1,14 @@
 <div [ngClass]="style">
-   {{name}} 
+    <select [(ngModel)]="textcolor">
+        <option>Green</option>
+        <option>yellow</option>
+        <option>Darkred</option>
+        <option>lightblue</option>
+    </select>
+   <h1 [style.color]="textcolor"> {{name}} </h1>
    <span (click)="changeColor('t1')"> Theme1 </span>
    <span (click)="changeColor('t2')"> Theme2 </span>
+   <hr>
+   <h3>Items</h3>
+   <ul><li *ngFor="let x of items">{{x}}</li></ul>
 </div>

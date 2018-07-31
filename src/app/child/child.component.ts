@@ -9,6 +9,8 @@ export class ChildComponent implements OnInit {
 
   name:string="Child Title";
   style:string="style1";
+  textcolor:string="lightblue";
+  items:string[]=["IDE","Compiler","Debugger","OS"];
   constructor() { }
 
   ngOnInit() {
